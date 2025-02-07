@@ -1,0 +1,149 @@
+/********************/
+/* BELOW 1104px */
+/********************/
+
+@media (max-width: 69em) {
+  html {
+    font-size: 56.25%;
+  }
+  .projects-section {
+    max-width: 112rem;
+  }
+}
+
+/********************/
+/* BELOW 912px */
+/********************/
+
+@media (max-width: 57em) {
+  html {
+    font-size: 53.125%;
+  }
+  .main-nav-list {
+    gap: 9.6rem;
+  }
+  .hero-section {
+    max-width: 100rem;
+    /* margin: 7rem auto; */
+  }
+  .skills-section {
+    max-width: 105rem;
+  }
+  .projects-section {
+    max-width: 105rem;
+  }
+  /* .omnifood-project {
+    padding: 0 4.8rem;
+  } */
+}
+
+/********************/
+/* BELOW 752px */
+/********************/
+
+@media (max-width: 47em) {
+  .main-nav-list {
+    gap: 4.8rem;
+  }
+  .hero-section {
+    max-width: 75rem;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr; */
+  }
+  .primary-heading {
+    text-align: left;
+    /* text-align: center; */
+    margin-bottom: 3.2rem;
+  }
+  .intro-para {
+    grid-column: 1 / 2;
+  }
+  .skills-section {
+    max-width: 80rem;
+  }
+  .projects-section {
+    max-width: 80rem;
+  }
+  .omnifood-grid {
+    gap: 3.2rem;
+    row-gap: 6.4rem;
+  }
+  .featured-in {
+    grid-column: 2 /3;
+  }
+  .meals {
+    grid-column: 2 /3;
+  }
+  .pricing {
+    grid-column: 2 /3;
+  }
+  .sign-up-form {
+    grid-column: 2 /3;
+  }
+  .blog-imgs-container {
+    gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+  .sm-comp-project-imgs {
+    grid-template-columns: 1fr;
+  }
+}
+
+/********************/
+/* BELOW 544px */
+/********************/
+
+@media (max-width: 34em) {
+  /* 34em is approximately 544px if 1em = 16px */
+  .main-header {
+    margin-top: 3.2rem;
+  }
+  .main-nav-list {
+    gap: 2.4rem; /* Reduce the gap for smaller screens */
+    justify-content: center; /* Optional: center the items horizontally */
+  }
+
+  .main-nav-list li {
+    flex: 0 0 40%; /* Each list item takes 50% of the width */
+    text-align: left;
+    /* text-align: center;  */
+  }
+  .hero-section {
+    /* max-width: 57rem; */
+    max-width: 100%;
+    margin-top: 9.6rem;
+  }
+  .primary-heading {
+    text-align: center;
+  }
+  .intro-para {
+    padding: 0 2.4rem;
+  }
+  .skills-section {
+    max-width: 60rem;
+    padding: 0 2.4rem;
+  }
+  .skill-content {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.8rem;
+  }
+
+  .skill-logos:nth-child(10) {
+    grid-column: -3 / -2;
+  }
+  .projects-section .secondary-heading {
+    padding: 0 2.4rem;
+  }
+  .omnifood-grid {
+    row-gap: 8rem;
+  }
+  .project-figure:nth-child(even) {
+    grid-column: 1 / 2;
+  }
+  .project-img {
+    max-width: 35rem;
+  }
+  .hero-project-img {
+    height: auto;
+  }
+}
