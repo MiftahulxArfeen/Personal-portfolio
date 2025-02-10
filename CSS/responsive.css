@@ -105,8 +105,8 @@
 
   .main-nav-list li {
     flex: 0 0 40%; /* Each list item takes 50% of the width */
-    text-align: left;
-    /* text-align: center;  */
+/*     text-align: left; */
+    text-align: center; 
   }
   .hero-section {
     /* max-width: 57rem; */
